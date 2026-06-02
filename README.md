@@ -1,4 +1,4 @@
-# PCAA Reproducibility Artifact
+# PCAA Tablewise Reproducibility Artifact
 
 Self-contained artifact for PCAA experimental tables.
 
