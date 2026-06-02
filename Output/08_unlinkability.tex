@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Prior-epoch linking under current-key exposure.}
+\label{tab:unlinkability-current-key}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+scheme & PLA & TPR & FPR & $C_{\mathsf{norm}}$ \\
+\midrule
+PCAA before compromise & 0.036 & 0.089 & 0.053 & 0.616 \\
+PCAA after current-key exposure & 0.036 & 0.089 & 0.053 & 0.616 \\
+Static AC & 0.999 & 0.999 & 0.000 & 0.000 \\
+Hecate-style AC & 0.999 & 0.999 & 0.000 & 0.000 \\
+Epoch-only AC & 0.005 & 0.087 & 0.082 & 0.990 \\
+Random selection & 0.044 & 0.087 & 0.043 & 0.870 \\
+\bottomrule
+\end{tabular}
+\end{table}

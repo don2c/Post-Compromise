@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\caption{Post-compromise recovery latency by exposure scope.}
+\label{tab:recovery}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+scope & mean ms & p95 ms & stale reject \\
+\midrule
+Signing key only & 14.200 & 19.028 & 1.000 \\
+Key + cached credential & 21.800 & 29.212 & 1.000 \\
+Key + revocation view & 25.600 & 34.304 & 1.000 \\
+Key + credential + logs & 34.900 & 46.766 & 1.000 \\
+\bottomrule
+\end{tabular}
+\end{table}

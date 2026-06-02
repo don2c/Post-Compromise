@@ -1,0 +1,30 @@
+\begin{table}[htbp]
+\centering
+\caption{Scalability under epoch-rotating rings.}
+\label{tab:scalability}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+factor & value & metric & result \\
+\midrule
+$|U|$ & 55 & $C_{\mathsf{norm}}$ & 0.428 \\
+$|U|$ & 110 & $C_{\mathsf{norm}}$ & 0.526 \\
+$|U|$ & 220 & $C_{\mathsf{norm}}$ & 0.615 \\
+$|R|$ & 8 & PLA & 0.129 \\
+$|R|$ & 16 & PLA & 0.091 \\
+$|R|$ & 32 & PLA & 0.064 \\
+$|R|$ & 64 & PLA & 0.037 \\
+$|\phi|$ & 3 & Show ms & 9.358 \\
+$|\phi|$ & 4 & Show ms & 10.178 \\
+$|\phi|$ & 5 & Show ms & 10.998 \\
+$|\phi|$ & 6 & Show ms & 11.818 \\
+$|\mathsf{rev}|$ & 0 & Verify ms & 4.892 \\
+$|\mathsf{rev}|$ & 50 & Verify ms & 4.898 \\
+$|\mathsf{rev}|$ & 250 & Verify ms & 4.922 \\
+$|\mathsf{rev}|$ & 749 & Verify ms & 4.982 \\
+$\Delta_e$ & 1h & daily update ms & 10.800 \\
+$\Delta_e$ & 6h & daily update ms & 1.800 \\
+$\Delta_e$ & 12h & daily update ms & 0.900 \\
+$\Delta_e$ & 24h & daily update ms & 0.450 \\
+\bottomrule
+\end{tabular}
+\end{table}

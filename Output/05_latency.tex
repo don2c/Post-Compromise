@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Proof-generation and verification latency under epoch-rotating rings.}
+\label{tab:proof-verify}
+\begin{tabular}{@{}lccccccc@{}}
+\toprule
+workload & n & $|\phi|$ & $|R|$ & Show mean & Show p95 & Verify mean & Verify p95 \\
+\midrule
+Clinician record access & 20354 & 3.330 & 64.000 & 9.639 & 10.189 & 4.619 & 4.934 \\
+Emergency access with audit & 6901 & 6.000 & 64.000 & 11.829 & 11.829 & 5.874 & 5.874 \\
+Patient portal access & 5108 & 3.307 & 64.000 & 9.621 & 10.189 & 4.608 & 4.934 \\
+Pharmacy prescription verification & 10102 & 4.518 & 64.000 & 10.614 & 11.009 & 5.177 & 5.404 \\
+Teleconsultation eligibility & 2535 & 3.323 & 64.000 & 9.634 & 10.189 & 4.616 & 4.934 \\
+\bottomrule
+\end{tabular}
+\end{table}

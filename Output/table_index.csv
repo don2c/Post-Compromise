@@ -1,0 +1,12 @@
+table,csv,tex,caption
+dataset_summary,01_dataset_summary.csv,01_dataset_summary.tex,Dataset summary.
+workloads,02_workloads.csv,02_workloads.tex,Trace-derived e-health workloads under epoch-rotating rings.
+recovery_support,03_recovery_support.csv,03_recovery_support.tex,Post-compromise recovery support across schemes.
+key_update,04_key_update.csv,04_key_update.tex,Key-update cost by epoch length.
+latency,05_latency.csv,05_latency.tex,Proof-generation and verification latency under epoch-rotating rings.
+sizes,06_sizes.csv,06_sizes.tex,Transcript and public-parameter size.
+recovery_latency,07_recovery_latency.csv,07_recovery_latency.tex,Post-compromise recovery latency by exposure scope.
+unlinkability,08_unlinkability.csv,08_unlinkability.tex,Prior-epoch linking under current-key exposure.
+residual_sources,09_residual_sources.csv,09_residual_sources.tex,Residual linkability sources.
+ablation,10_ablation.csv,10_ablation.tex,Ablation study after ring recalculation.
+scalability,11_scalability.csv,11_scalability.tex,Scalability under epoch-rotating rings.

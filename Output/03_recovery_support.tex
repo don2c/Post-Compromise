@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Post-compromise recovery support across schemes.}
+\label{tab:recovery-baseline}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+scheme & recovery & stale rejection & verifier unchanged \\
+\midrule
+PCAA & yes & yes & yes \\
+Static AC & no & no & yes \\
+Hecate-style AC & no & no & yes \\
+Epoch-only AC & partial & no & yes \\
+Random selection & no & no & n/a \\
+\bottomrule
+\end{tabular}
+\end{table}
