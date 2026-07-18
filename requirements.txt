@@ -1,2 +1,1 @@
-# Standard-library artifact.
-# Tested with Python 3.10+.
+# Python 3.10 or later. No third-party packages are required.
