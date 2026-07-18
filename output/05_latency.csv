@@ -1,0 +1,6 @@
+workload,n,$|\phi|$,$|R|$,Show mean,Show p95,Verify mean,Verify p95
+Clinician record access,20354,3.33,64.0,9.639,10.222,4.62,4.955
+Emergency access with audit,6901,6.0,64.0,11.829,11.908,5.874,5.923
+Patient portal access,5108,3.307,64.0,9.621,10.224,4.608,4.956
+Pharmacy prescription verification,10102,4.518,64.0,10.614,11.066,5.177,5.44
+Teleconsultation eligibility,2535,3.323,64.0,9.634,10.221,4.617,4.955

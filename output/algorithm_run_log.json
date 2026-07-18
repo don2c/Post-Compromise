@@ -1,0 +1,15 @@
+{
+  "Aggregate": 220,
+  "Enroll": 220,
+  "EpochUpdate": 45000,
+  "Issue": 660,
+  "IssuerKeyGen": 1,
+  "Recover": 4,
+  "Revoke": 4,
+  "Setup": 1,
+  "Show": 45000,
+  "Verify": 45000,
+  "seed": 20260531,
+  "target_ring_size": 64,
+  "verified_accept": 45000
+}

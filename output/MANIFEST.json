@@ -1,0 +1,49 @@
+{
+  "artifact": "PCAA-Cred reproducibility artifact",
+  "inputs": {
+    "raw_data/prime_ring_ehealth_access_log.csv": "56053336b3957c95f58ba23f020ef3d1985bf328d8764739fd2b8bddd78fc309",
+    "raw_data/prime_ring_ehealth_staff_graph_edges.csv": "e8b49ccd6e08bb4d3a32ae9862f680bf5f2ee53fcc9f86bae00edfaac1afe3a4"
+  },
+  "outputs": {
+    "01_dataset_summary.csv": "b52971560cab52674c6944529c59015575cdcf75bd0f705ea30bd38e394a0d81",
+    "01_dataset_summary.tex": "bd18c718b9c996c7938100e8b62c587e41687d67f22907edf18ea77a8e7b43b6",
+    "02_workloads.csv": "6bb1d449bf8dd1214ccd4ba7bd41c12e840104c27dead3ceb3f1c081f9312643",
+    "02_workloads.tex": "03e22257a9795b2ae22c172b91a0838ba4a657e6ddab00cbd421c009ec512b7a",
+    "03_recovery_support.csv": "69195bc17e7f143e824c39b1231a6f2f2b74f24edae878558a4ba3e4731298a2",
+    "03_recovery_support.tex": "e4304f0f946f64d2d7c8941bb2075e3f3ac971148f42434ecc5a79492c5f7a6b",
+    "04_key_update.csv": "ea889b70c099b49b417c753bbadf6082674870c7a36d8b0d0d69108b0b5dcf8b",
+    "04_key_update.tex": "352de35a63ebf378ef44dd338f8ea034885c556387f0603e3af9f4db50651b6f",
+    "05_latency.csv": "194dcb9d15b77cfa51e247fc7fd96e4472813cf8175159b8a9cfa8974edb1330",
+    "05_latency.tex": "d9de0eb907657fe2166d1c6f798b8fff1526be1e8f46b2b95ee11a101e2b3aab",
+    "06_sizes.csv": "0a9849f78b24dfc9a567188fc19d88e54e2705cb837dde61314769fd0751589e",
+    "06_sizes.tex": "27c4761498d126775d83e078e5ec470192244d0245daaad4c24d7d08815b039b",
+    "07_recovery_latency.csv": "bda9999b38b495dd60c332cc8226a775b3c202aec26f71e296bab8f67b109ebc",
+    "07_recovery_latency.tex": "3b9b0b98f14ae1956c7c752077eecfadb685684219dd44766b032e096bae4f04",
+    "08_unlinkability.csv": "bf68b391d3e008c69e4df5662811ccca01631a868836e177753699d05d903565",
+    "08_unlinkability.tex": "9340368a381115c8bf7bd561ca25df3d258c222f31e010890a7cf9710f3325e6",
+    "09_residual_sources.csv": "1316647c544f2fec5f59d510ab993873139563185a919571add8ead3ca9424e4",
+    "09_residual_sources.tex": "ff42ef48352a9f1b290c6ea2c0cc37e9e985debaa68a2450c95ea7334103bca8",
+    "10_ablation.csv": "f43aaf6daefcc8290b820688e65415eebb23fd587dd97e589670860373f49ed1",
+    "10_ablation.tex": "b542c02bc09b2e2c455d62e478f1f40609a3d5f6e603989e6af9099dce587cbf",
+    "11_scalability.csv": "e1ee535fb428b4f7df52b47bb84cac9fc28ef1c685b256f68814dd1c98994112",
+    "11_scalability.tex": "c5cebba9ee393f7bd5c7fe943429bd77a6bebbad473379cf6d7147760a39dbf3",
+    "algorithm_run_log.json": "2f6fc5914cd0d6f8d362e3c27f007b100f0f255bb1f19ad1ba3fb877e2255ae9",
+    "all_tables.tex": "85310e99ca0479ebfa6cac63287be29c883c68317ffa9b103b4aaba62fa09851",
+    "table_index.csv": "a03565aec5ed6ef52bc73705c695676a83f537e89d84a46d0556ff3d5fec028e"
+  },
+  "seed": 20260531,
+  "tables": [
+    "dataset_summary",
+    "workloads",
+    "recovery_support",
+    "key_update",
+    "latency",
+    "sizes",
+    "recovery_latency",
+    "unlinkability",
+    "residual_sources",
+    "ablation",
+    "scalability"
+  ],
+  "target_ring_size": 64
+}

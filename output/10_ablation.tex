@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\caption{Protocol ablation of PCAA-Cred state coupling.}
+\label{tab:ablation}
+\begin{tabular}{@{}lccc@{}}
+\toprule
+variant & removed mechanism & result & failure mode \\
+\midrule
+PCAA-Full & none & PLA = 0.037 & bounded exposed-state linkage \\
+No-Evolve & epoch key evolution & PLA = 0.999 & current key links prior state \\
+No-Erase & prior-state erasure & PLA = 0.999 & prior signing state remains exposed \\
+No-RevBind & revocation binding & fail & stale credential state accepted \\
+No-Recover & re-key and recovery & fail & no post-compromise continuation \\
+\bottomrule
+\end{tabular}
+\end{table}

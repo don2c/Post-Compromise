@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Prior-epoch linking under stated exposure classes.}
+\label{tab:unlinkability-current-key}
+\begin{tabular}{@{}lccccc@{}}
+\toprule
+scheme & exposure & exposed state & PLA & $\Delta$PLA & $C_{\mathsf{norm}}$ \\
+\midrule
+PCAA before compromise & none & $\mathcal{L}^{+}$ only & 0.037 & -- & 0.615 \\
+PCAA after compromise & $\mathsf{Exp}^{key}$ & $\mathsf{sk}_{u,e_c}$ & 0.037 & 0.000 & 0.615 \\
+Static AC & $\mathsf{Exp}^{cred+log}$ & stable handle + token log & 0.999 & -- & 0.000 \\
+Hecate-style AC & $\mathsf{Exp}^{cred+log}$ & cached credential + service log & 0.999 & -- & 0.000 \\
+Epoch-only AC & $\mathsf{Exp}^{key}$ & current epoch key & 0.005 & -- & 0.990 \\
+Random selection & none & random ring/assertion choice & 0.044 & -- & 0.870 \\
+\bottomrule
+\end{tabular}
+\end{table}
